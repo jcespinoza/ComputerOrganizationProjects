@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/BehavioralModeling_Deras/behavioral_top.xst" -ofn "C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/BehavioralModeling_Deras/behavioral_top.syr" 
+xst -intstyle ise -ifn "C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/BehavioralModeling_Deras/behavioral_top.xst" -ofn "C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/BehavioralModeling_Deras/behavioral_top.syr" 
+xst -intstyle ise -ifn "C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/BehavioralModeling_Deras/behavioral_top.xst" -ofn "C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/BehavioralModeling_Deras/behavioral_top.syr" 
+vhdtdtfi -lib work C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/BehavioralModeling_Deras/behavioral_top.v -lang verilog -prj BehavioralModeling_Deras -o behavioral_top.spl -module behavioral_top -template C:/Xilinx/14.1/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e behavioral_top.spl C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/BehavioralModeling_Deras/behavioral_top.sym 
+xst -intstyle ise -ifn "C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/BehavioralModeling_Deras/behavioral_top.xst" -ofn "C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/BehavioralModeling_Deras/behavioral_top.syr" 
+xst -intstyle ise -ifn "C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/BehavioralModeling_Deras/behavioral_top.xst" -ofn "C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/BehavioralModeling_Deras/behavioral_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc behavioral_top.ucf -p xc3s500e-ft256-5 behavioral_top.ngc behavioral_top.ngd  
+map -intstyle ise -p xc3s500e-ft256-5 -cm area -ir off -pr off -c 100 -o behavioral_top_map.ncd behavioral_top.ngd behavioral_top.pcf 
+par -w -intstyle ise -ol high -t 1 behavioral_top_map.ncd behavioral_top.ncd behavioral_top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml behavioral_top.twx behavioral_top.ncd -o behavioral_top.twr behavioral_top.pcf -ucf behavioral_top.ucf 
+bitgen -intstyle ise -f behavioral_top.ut behavioral_top.ncd 

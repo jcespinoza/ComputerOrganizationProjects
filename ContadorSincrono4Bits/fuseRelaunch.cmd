@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/ContadorSincrono4Bits/Counter_tb_isim_beh.exe" -prj "C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/ContadorSincrono4Bits/Counter_tb_beh.prj" "work.Counter_tb" "work.glbl" 

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/ContadorSincrono4Bits/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/ContadorSincrono4Bits/xst"
+elaborate
+-ifn Counter.prj
+-ifmt mixed

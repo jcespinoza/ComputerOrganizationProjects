@@ -1,0 +1,6 @@
+verilog work "seven_segments.v"
+verilog work "input_detect.v"
+verilog work "adder.v"
+verilog work "behavioral_top.v"
+verilog work "behavioral_top_tb.v"
+verilog work "C:/Xilinx/14.1/ISE_DS/ISE//verilog/src/glbl.v"

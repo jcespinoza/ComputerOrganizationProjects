@@ -1,0 +1,37 @@
+ISim log file
+Running: C:\Users\JuanCarlos\Projects\GitHub\ComputerOrganizarionProjects\BehavioralModelingLab\input_detect_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/BehavioralModelingLab/input_detect_isim_beh.wdb 
+ISim P.15xf (signature 0xc3576ebc)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+# restart
+# restart
+# restart
+# restart
+# restart
+# restart
+# restart
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run all
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.15xf (signature 0xc3576ebc)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

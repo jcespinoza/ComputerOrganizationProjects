@@ -1,0 +1,15 @@
+NET "SW0" LOC = "J11" | IOSTANDARD = LVCMOS33 ; #switch[0]
+NET "SW1" LOC = "J12" | IOSTANDARD = LVCMOS33 ; #switch[1]
+NET "SW2" LOC = "H16" | IOSTANDARD = LVCMOS33 ; #switch[2]
+NET "SW3" LOC = "H13" | IOSTANDARD = LVCMOS33 ; #switch[3]
+NET "SW4" LOC = "G12" | IOSTANDARD = LVCMOS33 ; #switch[4]
+NET "SW5" LOC = "E14" | IOSTANDARD = LVCMOS33 ; #switch[5]
+NET "SW6" LOC = "D16" | IOSTANDARD = LVCMOS33 ; #switch[6]
+NET "SW7" LOC = "B16" | IOSTANDARD = LVCMOS33 ; #switch[7]
+NET "segments[0]" LOC = "E3" | IOSTANDARD = LVCMOS33 ; #SegA
+NET "segments[1]" LOC = "E1" | IOSTANDARD = LVCMOS33 ; #SegB
+NET "segments[2]" LOC = "G5" | IOSTANDARD = LVCMOS33 ; #SegC
+NET "segments[3]" LOC = "D1" | IOSTANDARD = LVCMOS33 ; #SegD
+NET "segments[4]" LOC = "E4" | IOSTANDARD = LVCMOS33 ; #SegE
+NET "segments[5]" LOC = "C1" | IOSTANDARD = LVCMOS33 ; #SegF
+NET "segments[6]" LOC = "C2" | IOSTANDARD = LVCMOS33 ; #SegG

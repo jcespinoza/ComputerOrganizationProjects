@@ -1,0 +1,3 @@
+verilog work "RegFile.v"
+verilog work "Alu.v"
+verilog work "CPUMain.v"

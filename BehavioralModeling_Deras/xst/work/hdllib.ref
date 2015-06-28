@@ -1,0 +1,4 @@
+MO adder NULL adder.v vlg54/adder.bin 1408852273
+MO input_detect NULL input_detect.v vlg10/input__detect.bin 1408852273
+MO seven_segment NULL seven_segment.v vlg2F/seven__segment.bin 1408852273
+MO behavioral_top NULL behavioral_top.v vlg0F/behavioral__top.bin 1408852273

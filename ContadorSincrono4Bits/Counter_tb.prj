@@ -1,0 +1,2 @@
+verilog work "Contador.v"
+verilog work "Counter_tb.v"

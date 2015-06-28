@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.1 (64-bit)
+# Build 179419 by xbuild on Thu Apr 26 11:43:29 MDT 2012
+# Start of session at: Sat Aug 23 21:31:32 2014
+# Process ID: 3856
+# Log file: C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/BehavioralModeling_Deras/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/BehavioralModeling_Deras/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/BehavioralModeling_Deras/pa.fromHdl.tcl
+exit

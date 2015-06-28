@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/AluWithRegisterFile/CPUMain.xst" -ofn "C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/AluWithRegisterFile/CPUMain.syr" 

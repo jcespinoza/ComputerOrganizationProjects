@@ -1,0 +1,8 @@
+[Inputs]
+=sw[7:0]=
+[Outputs]
+=segments[6:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel behavioral_top
+

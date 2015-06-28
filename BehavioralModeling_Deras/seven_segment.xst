@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/BehavioralModeling_Deras/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/JuanCarlos/Projects/GitHub/ComputerOrganizarionProjects/BehavioralModeling_Deras/xst"
+elaborate
+-ifn seven_segment.prj
+-ifmt mixed

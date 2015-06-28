@@ -1,0 +1,33 @@
+# Read address 1
+NET "readAddr1[0]" LOC="P10";	# J1-IO1
+NET "readAddr1[1]" LOC="P7";	# J1-IO2
+
+# Read address 2
+NET "readAddr2[0]" LOC="P5"; 	# J1-IO3
+NET "readAddr2[1]" LOC="P3"; 	# J1-IO4
+
+# Write address
+NET "writeAddr[0]" LOC="P9"; # J1-IO7
+NET "writeAddr[1]" LOC="P6"; # J1-IO8
+
+# Mux Select
+NET "muxSelect" LOC="P4"; # J1-IO9
+
+# Clock
+NET "clk" LOC="P2"; # J1-IO10
+
+# ALU function
+NET "aluFunc[0]" LOC="P142"; # J2-IO1
+NET "aluFunc[1]" LOC="P139"; # J2-IO2
+
+# External Write Data
+NET "exWriteData[0]" LOC="P136"; # J2-IO3
+NET "exWriteData[1]" LOC="P134"; # J2-IO4
+NET "exWriteData[2]" LOC="P140"; # J2-IO7
+NET "exWriteData[3]" LOC="P138"; # J2-IO8
+
+# Read Data 1
+NET "readData1[0]" LOC="P135"; # J2-IO9
+NET "readData1[1]" LOC="P133"; # J2-I10
+NET "readData1[2]" LOC="P119"; # J3-IO1
+NET "readData1[3]" LOC="P117"; # J3-IO2
